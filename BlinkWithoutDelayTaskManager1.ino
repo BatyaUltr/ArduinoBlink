@@ -14,7 +14,7 @@ int ledState4 = LOW;
 int ledState5 = LOW;
 int ledState6 = LOW;
 
-void change(int &ledState, int State){
+void change(int ledState, int State){
   State = !State;
   digitalWrite(ledState, State);
 }

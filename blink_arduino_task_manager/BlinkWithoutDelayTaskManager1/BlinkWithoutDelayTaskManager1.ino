@@ -14,9 +14,9 @@ int ledState4 = LOW;
 int ledState5 = LOW;
 int ledState6 = LOW;
 
-void change(int ledState, int State){
-  State = !State;
-  digitalWrite(ledState, State);
+void change(int ledState, int Pin){
+  ledState = !ledState;
+  digitalWrite(ledState, Pin);
 }
 
 void setup() {

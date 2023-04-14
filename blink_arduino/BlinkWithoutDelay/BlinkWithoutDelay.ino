@@ -56,19 +56,19 @@ void loop() {
     digitalWrite(ledPin3, ledState3);
   }
 
-  if (currentMillis - previousMillis4 >= interval) {
+  if (currentMillis - previousMillis4 >= interval4) {
     previousMillis4 = currentMillis;
     ledState4 = !ledState4;
     digitalWrite(ledPin4, ledState4);
   }
 
-  if (currentMillis - previousMillis5 >= interval) {
+  if (currentMillis - previousMillis5 >= interval5) {
     previousMillis5 = currentMillis;
     ledState5 = !ledState5;
     digitalWrite(ledPin5, ledState5);
   }
 
-  if (currentMillis - previousMillis6 >= interval) {
+  if (currentMillis - previousMillis6 >= interval6) {
     previousMillis6 = currentMillis;
     ledState6 = !ledState6;
     digitalWrite(ledPin6, ledState6);
